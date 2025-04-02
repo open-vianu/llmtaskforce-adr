@@ -1,0 +1,395 @@
+4.8 Bijwerkingen
+Samenvatting van het veiligheidsprofiel
+Adalimumab is tot 60 maanden of langer onderzocht bij 9.506 patiënten in de belangrijkste
+gecontroleerde en open-label onderzoeken. Bij deze onderzoeken waren patiënten betrokken met kort
+bestaande en langer bestaande reumatoïde artritis, met juveniele idiopathische artritis (polyarticulaire
+juveniele idiopathische artritis en enthesitis-gerelateerde artritis) en met axiale spondylartritis
+(spondylitis ankylopoetica en axiale spondylartritis zonder röntgenologisch bewijs van AS), arthritis
+psoriatica, de ziekte van Crohn, colitis ulcerosa, psoriasis, hidradenitis suppurativa en uveïtis. In de
+belangrijkste gecontroleerde onderzoeken kregen 6.089 patiënten adalimumab en 3.801 patiënten een
+placebo of active-comparator tijdens de gecontroleerde periode.
+Het deel van de patiënten dat de behandeling staakte omwille van bijwerkingen tijdens het dubbelblinde
+gecontroleerde deel van de belangrijkste onderzoeken bedroeg 5,9% voor de patiënten die adalimumab
+gebruikten en 5,4% voor met controle behandelde patiënten.
+17
+De meest gemelde bijwerkingen zijn infecties (zoals nasofaryngitis, infectie van de bovenste
+luchtwegen en sinusitis), reacties op de injectieplaats (erytheem, jeuk, bloeding, pijn of zwelling),
+hoofdpijn en skeletspierpijn.
+Voor adalimumab zijn meldingen van ernstige bijwerkingen gedaan. TNF-antagonisten zoals
+AMGEVITA hebben een effect op het immuunsysteem en het gebruik ervan kan de afweer van het
+lichaam tegen infecties en kanker beïnvloeden.
+Fatale en levensbedreigende infecties (waaronder sepsis, opportunistische infecties en TB), HBV-
+reactivatie en verscheidene maligniteiten (waaronder leukemie, lymfomen en HSTCL) zijn ook gemeld
+bij gebruik van adalimumab.
+Ook zijn meldingen gedaan van ernstige hematologische, neurologische en auto-immuunreacties. Deze
+omvatten zeldzame gevallen van pancytopenie, aplastische anemie, centrale en perifere
+demyeliniserende aandoeningen en meldingen van lupus, lupus-gerelateerde aandoeningen en
+Stevens-Johnson-syndroom.
+Pediatrische patiënten
+In het algemeen waren de bijwerkingen bij kinderen qua frequentie en type vergelijkbaar met de bij
+volwassen patiënten waargenomen bijwerkingen.
+Getabelleerde lijst van bijwerkingen
+De vermelde lijst met bijwerkingen is gebaseerd op ervaring uit klinische studies en op
+postmarketingervaring en is weergegeven per systeem/orgaanklasse en frequentie hieronder in tabel 7
+zeer vaak (≥ 1/10); vaak (≥ 1/100, < 1/10); soms (≥ 1/1.000, < 1/100); zelden (≥ 1/10.000, < 1/1.000) en
+niet bekend (kan met de beschikbare gegevens niet worden bepaald). Binnen iedere frequentiegroep
+worden bijwerkingen gerangschikt naar afnemende ernst. De hoogste frequentie die werd waargenomen
+bij de verschillende indicaties is opgenomen. Een asterisk (*) in de ‘Systeem/orgaanklasse’-kolom
+betekent dat aanvullende informatie elders in rubriek 4.3, 4.4 en 4.8 gevonden kan worden.
+18
+Tabel 7. Bijwerkingen
+Systeem/orgaanklasse Infecties en parasitaire
+aandoeningen*
+Neoplasmata, benigne, maligne
+en niet-gespecificeerd
+(inclusief cysten en poliepen)*
+Bloed- en
+lymfestelselaandoeningen*
+Immuunsysteemaandoeningen* Frequentie zeer vaak vaak soms vaak soms zelden niet bekend zeer vaak vaak soms zelden vaak soms zelden Bijwerking
+luchtweginfecties (waaronder lagere en hogere
+luchtweginfecties, pneumonie, sinusitis,
+faryngitis, nasofaryngitis en virale herpes
+pneumonie)
+systemische infecties (waaronder sepsis,
+candidiasis en influenza),
+intestinale infecties (waaronder virale gastro-
+enteritis),
+huid- en onderhuidinfecties (waaronder
+paronychia, cellulitis, impetigo, fasciitis
+necroticans en herpes zoster),
+oorontstekingen,
+orale infecties (waaronder herpes simplex,
+orale herpes en tandinfecties),
+genitale infecties (waaronder vulvovaginale
+schimmelinfectie),
+urineweginfecties (waaronder pyelonefritis),
+schimmelinfecties,
+gewrichtsinfecties
+neurologische infecties (waaronder virale
+meningitis),
+opportunistische infecties en tuberculose
+(waaronder coccidioïdomycose, histoplasmose
+en Mycobacterium Avium Complex-infectie),
+bacteriële infecties,
+ooginfecties,
+diverticulitis1)
+huidkanker met uitzondering van melanoom
+(waaronder basaalcelcarcinoom en
+plaveiselcelcarcinoom),
+benigne neoplasma
+lymfoom**,
+solide tumoren (waaronder borstkanker,
+longkanker en schildklierkanker),
+melanoom**
+leukemie1)
+hepatosplenisch T-cel lymfoom1)
+,
+merkelcelcarcinoom (neuro-endocrien
+carcinoom van de huid)1)
+,
+Kaposi-sarcoom
+leukopenie (waaronder neutropenie en
+agranulocytose),
+anemie
+leukocytose,
+trombocytopenie
+idiopathische trombocytopenische purpura
+pancytopenie
+hypersensitiviteit,
+allergieën (waaronder hooikoorts)
+sarcoïdose1)
+vasculitis
+,
+anafylaxie1)
+19
+Systeem/orgaanklasse Voedings- en
+stofwisselingsstoornissen
+Psychische stoornissen Zenuwstelselaandoeningen* Oogaandoeningen Evenwichtsorgaan- en
+ooraandoeningen
+Hartaandoeningen* Bloedvataandoeningen Ademhalingsstelsel-, borstkas-
+en mediastinumaandoeningen*
+Frequentie Bijwerking
+zeer vaak verhoogde lipiden
+vaak hypokaliëmie,
+verhoogd urinezuur,
+afwijkend bloednatrium,
+hypocalciëmie,
+hyperglykemie,
+hypofosfatemie,
+dehydratie
+vaak stemmingsveranderingen (waaronder
+depressie), angst,
+insomnia
+zeer vaak hoofdpijn
+vaak paresthesie (waaronder hypo-esthesie),
+migraine,
+zenuwwortelcompressie
+soms cerebrovasculair accident1)
+,
+tremor,
+neuropathie
+zelden multipele sclerose,
+demyelinisatieaandoeningen (bijv. neuritis
+optica, Guillain-Barré-syndroom)1)
+vaak gezichtsvermogen afgenomen,
+conjunctivitis,
+blefaritis,
+oogzwelling
+soms diplopie
+vaak vertigo
+soms doofheid,
+tinnitus
+vaak tachycardie
+soms myocardinfarct1)
+,
+aritmieën,
+congestief hartfalen
+zelden hartstilstand
+vaak hypertensie,
+blozen,
+hematoom
+soms aneurysma aortae,
+bloedvatafsluiting,
+tromboflebitis
+vaak astma,
+dyspneu,
+hoesten
+soms longembolie1)
+,
+interstitiële longziekte,
+COPD (chronic obstructive pulmonary
+disease),
+pneumonitis,
+pleurale effusie1)
+zelden longfibrose1)
+20
+Systeem/orgaanklasse Frequentie Maagdarmstelselaandoeningen zeer vaak vaak soms zelden Lever- en galaandoeningen* zeer vaak soms zelden niet bekend Huid- en
+onderhuidaandoeningen
+zeer vaak vaak soms zelden niet bekend Skeletspierstelsel- en
+bindweefselaandoeningen
+zeer vaak vaak soms zelden Nier- en
+urinewegaandoeningen
+vaak soms Voortplantingsstelsel- en
+borstaandoeningen
+soms Bijwerking
+buikpijn,
+misselijkheid en braken
+maagdarmbloeding,
+dyspepsie,
+refluxoesofagitis,
+siccasyndroom
+pancreatitis,
+slikklachten,
+zwelling van het gezicht
+intestinale perforatie1)
+verhoogde leverenzymen
+cholecystitis en cholelithiase,
+hepatische steatose,
+verhoogd bilirubine
+hepatitis
+reactivatie van hepatitis B1)
+auto-immuunhepatitis1)
+leverfalen1)
+uitslag (waaronder schilferende uitslag)
+verergering of het ontstaan van psoriasis
+(inclusief psoriasis pustulosa
+palmoplantaris)1)
+,
+urticaria,
+blauwe plekken (waaronder purpura),
+dermatitis (waaronder eczeem),
+breken van de nagels,
+overmatig zweten,
+alopecia1)
+,
+pruritus
+nachtzweten,
+litteken
+erythema multiforme1)
+,
+Stevens-Johnson-syndroom1)
+,
+angio-oedeem1)
+,
+cutane vasculitis1)
+lichenoïde huidreactie1)
+verergering van symptomen van
+dermatomyositis1)
+skeletspierpijn
+spierspasmen (waaronder bloed
+creatininefosfokinase verhoogd)
+rabdomyolyse,
+gegeneraliseerde lupus erythematosus
+lupus-achtig syndroom1)
+nierfunctiestoornissen,
+hematurie
+nycturie
+erectiestoornissen
+21
+Systeem/orgaanklasse Frequentie Bijwerking
+Algemene aandoeningen en
+toedieningsplaatsstoornissen*
+zeer vaak reacties op de injectieplaats (waaronder
+erytheem op de injectieplaats)
+vaak pijn op de borst,
+oedeem,
+koorts1)
+soms ontsteking
+Onderzoeken* vaak stollings-en bloedingsstoornissen (waaronder
+verlengde geactiveerde partiële
+tromboplastinetijd),
+positieve test op autoantilichamen (waaronder
+antilichamen tegen dubbelstrengs DNA),
+verhoogd lactaatdehydrogenase in het bloed
+niet bekend gewichtstoename2)
+Letsels, intoxicaties en
+verrichtingscomplicaties
+vaak vertraagd herstel
+* nadere informatie is elders in rubriek 4.3, 4.4 en 4.8 te vinden
+** inclusief aanvullende open-label onderzoeken
+1) inclusief spontane meldingen
+2) De gemiddelde gewichtsverandering vanaf baseline voor adalimumab varieerde van 0,3 kg tot 1,0 kg voor de
+verschillende indicaties voor volwassenen ten opzichte van (minus) -0,4 kg tot 0,4 kg voor placebo gedurende een
+behandelperiode van 4-6 maanden. Er werd ook een gewichtstoename van 5-6 kg waargenomen in
+langetermijnextensieonderzoeken met een gemiddelde blootstelling van ongeveer 1-2 jaar zonder controlegroep,
+met name bij patiënten met ziekte van Crohn en colitis ulcerosa. Het mechanisme achter dit effect is onduidelijk,
+maar zou verband kunnen houden met het ontstekingsremmende effect van adalimumab.
+Hidradenitis suppurativa
+Het veiligheidsprofiel voor HS-patiënten die eenmaal per week met adalimumab werden behandeld,
+kwam overeen met het reeds bekende veiligheidsprofiel van adalimumab.
+Uveïtis
+Het veiligheidsprofiel voor patiënten met uveïtis die eenmaal per twee weken met adalimumab werden
+behandeld, kwam overeen met het reeds bekende veiligheidsprofiel van adalimumab.
+Beschrijving van geselecteerde bijwerkingen
+Reacties op de injectieplaats
+In de belangrijkste gecontroleerde onderzoeken bij volwassenen en kinderen traden bij 12,9% van de
+met adalimumab behandelde patiënten reacties op de injectieplaats op (erytheem en/of jeuk, bloeding,
+pijn of zwelling), in vergelijking met 7,2% van de patiënten die placebo of actieve-control kregen.
+Reacties op de injectieplaats noodzaakten doorgaans niet tot staken van het geneesmiddel.
+Infecties
+In de belangrijkste gecontroleerde onderzoeken bij volwassenen en kinderen bedroeg het
+incidentiecijfer voor infectie 1,51 per patiëntjaar bij de met adalimumab behandelde patiënten en 1,46
+per patiëntjaar bij de met placebo en actieve-control behandelde patiënten. De infecties bestonden
+hoofdzakelijk uit nasofaryngitis, bovenste luchtweginfecties en sinusitis. De meeste patiënten bleven op
+adalimumab na het verdwijnen van de infectie.
+De incidentie van ernstige infecties bedroeg 0,04 per patiëntjaar bij met adalimumab behandelde
+patiënten en 0,03 per patiëntjaar bij met placebo en actieve-control behandelde patiënten.
+22
+In gecontroleerde en open-label onderzoeken met adalimumab bij volwassenen en kinderen zijn ernstige
+infecties (waaronder fatale infecties, die zelden voorkwamen) gemeld, waaronder tuberculose (inclusief
+miliair en extrapulmonale locaties) en invasieve opportunistische infecties (o.a. gedissemineerde of
+extrapulmonale histoplasmose, blastomycose, coccidioïdomycose, pneumocystose, candidiasis,
+aspergillose en listeriose). De meeste gevallen van tuberculose traden op in de eerste acht maanden na
+het starten van de therapie en kan duiden op een recidief van een latente ziekte.
+Maligniteiten en lymfoproliferatieve aandoeningen
+Er zijn geen maligniteiten waargenomen bij 249 pediatrische patiënten met een blootstelling van 655,6
+patiëntjaren tijdens onderzoeken met adalimumab bij patiënten met juveniele idiopathische artritis
+(polyarticulaire juveniele idiopathische artritis en enthesitis-gerelateerde artritis). Daarnaast zijn er geen
+maligniteiten waargenomen bij 192 kinderen met een blootstelling van 498,1 patiëntjaren tijdens
+onderzoeken met adalimumab bij kinderen met de ziekte van Crohn. Er zijn geen maligniteiten
+waargenomen bij 77 pediatrische patiënten met een blootstelling van 80,0 patiëntjaren tijdens een
+onderzoek met adalimumab bij pediatrische patiënten met chronische plaquepsoriasis. Er zijn geen
+maligniteiten waargenomen bij 93 pediatrische patiënten met een blootstelling van 65,3 patiëntjaren
+tijdens een adalimumab-onderzoek bij pediatrische patiënten met colitis ulcerosa. Er zijn geen
+maligniteiten waargenomen bij 60 pediatrische patiënten met een blootstelling van 58,4 patiëntjaren,
+tijdens een onderzoek met adalimumab bij pediatrische patiënten met uveïtis.
+Tijdens de gecontroleerde gedeelten van belangrijke adalimumab-onderzoeken bij volwassenen die ten
+minste 12 weken duurden bij patiënten met matig ernstige tot ernstige actieve reumatoïde artritis,
+spondylitis ankylopoetica, axiale spondylartritis zonder röntgenologisch bewijs van AS, arthritis
+psoriatica, psoriasis, hidradenitis suppurativa, de ziekte van Crohn, colitis ulcerosa en uveïtis werden
+maligniteiten, anders dan lymfomen en niet-melanoom huidkanker, geobserveerd met een incidentie
+(95%-betrouwbaarheidsinterval) van 6,8 (4,4; 10,5) per 1.000 patiëntjaren bij 5.291 met adalimumab
+behandelde patiënten versus een incidentie van 6,3 (3,4; 11,8) per 1.000 patiëntjaren bij 3.444
+controlepatiënten (gemiddelde behandelingsduur was 4,0 maanden voor adalimumab en 3,8 maanden
+voor de controlepatiënten). De incidentie (95%-betrouwbaarheidsinterval) van niet-melanoom
+huidcarcinomen was 8,8 (6,0; 13,0) per 1.000 patiëntjaren bij de met adalimumab behandelde patiënten
+en 3,2 (1,3; 7,6) per 1.000 patiëntjaren bij de controlepatiënten. Van deze huidcarcinomen, bedroeg de
+incidentie (95%-betrouwbaarheidsinterval) van plaveiselcelcarcinoom 2,7 (1,4; 5,4) per 1.000
+patiëntjaren bij met adalimumab behandelde patiënten en 0,6 (0,1; 4,5) per 1.000 patiëntjaren bij de
+controlepatiënten. De incidentie (95%-betrouwbaarheidsinterval) van lymfomen bedroeg 0,7 (0,2; 2,7)
+per 1.000 patiëntjaren bij met adalimumab behandelde patiënten en 0,6 (0,1; 4,5) per 1.000 patiëntjaren
+bij de controlepatiënten.
+Bij het combineren van de gecontroleerde gedeelten van deze onderzoeken en de lopende en afgeronde
+open-label extensieonderzoeken met adalimumab met een gemiddelde duur van ongeveer 3,3 jaar
+waarin 6.427 patiënten geïncludeerd waren en meer dan 26.439 patiëntjaren van therapie, is het
+waargenomen aantal maligniteiten, anders dan lymfomen en niet-melanoom huidcarcinomen ongeveer
+8,5 per 1.000 patiëntjaren. De geobserveerde incidentie van niet-melanoom huidcarcinomen bedraagt
+ongeveer 9,6 per 1.000 patiëntjaren en voor lymfomen ongeveer 1,3 per 1.000 patiëntjaren.
+Tijdens postmarketing ervaringen van januari 2003 tot december 2010, voornamelijk bij patiënten met
+reumatoïde artritis, was de incidentie van spontaan gerapporteerde maligniteiten ongeveer 2,7 per 1.000
+patiëntbehandeljaren. De spontaan gerapporteerde incidenties van niet-melanoom huidcarcinomen en
+lymfomen waren respectievelijk ongeveer 0,2 en 0,3 per 1.000 patiëntbehandeljaren (zie rubriek 4.4).
+Zeldzame postmarketing gevallen van hepatosplenisch T-cellymfoom zijn gerapporteerd bij patiënten
+die behandeld werden met adalimumab (zie rubriek 4.4).
+Autoantilichamen
+Op verschillende tijdstippen tijdens de reumatoïde artritis onderzoeken I-V werden serummonsters van
+de patiënten getest op autoantilichamen. In deze onderzoeken werden voor 11,9% van de met
+23
+adalimumab behandelde patiënten en 8,1% van de met placebo en actieve-control behandelde patiënten
+die aan het begin van het onderzoek negatieve antinucleaire-antilichaamtiters hadden, positieve titers
+gemeld in week 24. Twee van de 3.441 met adalimumab behandelde patiënten in alle onderzoeken naar
+het gebruik bij reumatoïde artritis en arthritis psoriatica vertoonden klinische symptomen die wezen op
+recent opgetreden lupus-achtig syndroom. De patiënten vertoonden verbetering na het staken van de
+behandeling. Er waren geen patiënten bij wie lupus nefritis of symptomen van het centrale zenuwstelsel
+optraden.
+Lever- en galaandoeningen
+In de gecontroleerde fase 3 klinische onderzoeken met adalimumab bij patiënten met reumatoïde artritis
+en arthritis psoriatica met een controleperiode met een duur variërend van 4 tot 104 weken, kwamen
+ALAT-verhogingen van ≥ 3 x ULN voor bij 3,7% van de patiënten die werden behandeld met
+adalimumab en bij 1,6% van de patiënten in de controle-arm.
+In de gecontroleerde fase 3 klinische onderzoeken met adalimumab bij patiënten met polyarticulaire
+juveniele idiopathische artritis in de leeftijd van 4 tot en met 17 jaar en enthesitis-gerelateerde artritis in
+de leeftijd van 6 tot en met 17 jaar, kwamen ALAT-verhogingen van ≥ 3 x ULN voor bij 6,1% van de
+patiënten die werden behandeld met adalimumab en bij 1,3% van de patiënten in de controle-arm. De
+meeste ALAT-verhogingen kwamen voor tijdens gelijktijdig gebruik van methotrexaat. In het fase 3
+klinische onderzoek kwamen geen ALAT-verhogingen van ≥ 3 x ULN voor bij patiënten met
+polyarticulaire juveniele idiopathische artritis in de leeftijd van 2 tot 4 jaar.
+In de gecontroleerde fase 3 klinische onderzoeken met adalimumab bij patiënten met de ziekte van
+Crohn en colitis ulcerosa waarbij de controleperiode varieerde van 4 tot 52 weken, kwamen ALAT-
+verhogingen van ≥ 3 x ULN voor bij 0,9% van de patiënten die werden behandeld met adalimumab en
+bij 0,9% van de patiënten in de controle-arm.
+In het fase 3-onderzoek met adalimumab werden bij patiënten met Juveniele ziekte van Crohn de
+werkzaamheid en veiligheid tot 52 weken behandeling beoordeeld van twee op lichaamsgewicht
+aangepaste onderhoudsdoseringregimes na een op lichaamsgewicht aangepaste inductietherapie. Hierbij
+kwamen ALAT-verhogingen van ≥ 3 x ULN voor bij 2,6% (5/192) van de patiënten van wie er 4 in de
+uitgangssituatie gelijktijdig immunosuppressiva toegediend kregen.
+In de gecontroleerde fase 3 klinische onderzoeken met adalimumab bij patiënten met plaquepsoriasis
+waarbij de controleperiode varieerde van 12 tot 24 weken, kwamen ALAT-verhogingen van ≥ 3 x ULN
+voor bij 1,8% van de patiënten die werden behandeld met adalimumab en bij 1,8% van de patiënten in
+de controle-arm.
+Er kwamen geen ALAT-verhogingen van ≥ 3 x ULN voor in het fase 3-onderzoek met adalimumab bij
+pediatrische patiënten met plaquepsoriasis.
+In gecontroleerde onderzoeken kregen patiënten met hidradenitis suppurativa adalimumab (toegediend
+in initiële doses van 160 mg in week 0 en 80 mg in week 2, gevolgd door wekelijkse doses van 40 mg
+vanaf week 4) waarbij de controleperiode varieerde van 12 tot 16 weken. ALAT-verhogingen van
+≥ 3 x ULN kwamen voor bij 0,3% van de patiënten die werden behandeld met adalimumab en bij 0,6%
+van de patiënten in de controle-arm.
+In gecontroleerde onderzoeken kregen volwassen patiënten met uveïtis adalimumab (initiële doses van
+80 mg in week 0, gevolgd door 40 mg eenmaal per twee weken vanaf week 1) tot 80 weken met een
+mediane blootstelling van 166,5 dagen en 105,0 dagen in respectievelijk patiënten die werden
+behandeld met adalimumab en patiënten in de controle-arm. ALAT-verhogingen van ≥ 3 x ULN
+kwamen hierbij voor bij 2,4% van de patiënten die werden behandeld met adalimumab en bij 2,4% van
+de patiënten in de controle-arm.
+In het gecontroleerde fase 3-onderzoek van adalimumab bij patiënten met juveniele colitis ulcerosa
+(N = 93) waarin de werkzaamheid en veiligheid werden beoordeeld van een onderhoudsdosering van
+24
+0,6 mg/kg (maximaal 40 mg) eenmaal per twee weken (N = 31) en een onderhoudsdosering van
+0,6 mg/kg (maximaal 40 mg) eenmaal per week (N = 32), volgend op een voor lichaamsgewicht
+gecorrigeerde inductiedosering van 2,4 mg/kg (maximaal 160 mg) in week 0 en week 1 en 1,2 mg/kg
+(maximaal 80 mg) in week 2 (N = 63), of een inductiedosering van 2,4 mg/kg (maximaal 160 mg) in
+week 0, placebo in week 1 en 1,2 mg/kg (maximaal 80 mg) in week 2 (N = 30), kwamen ALT-
+verhogingen van ≥ 3 x ULN voor bij 1,1% (1/93) van de patiënten.
+Bij de klinische onderzoeken van alle indicaties waren patiënten met een verhoogd ALAT klachtenvrij
+en in de meeste gevallen waren de verhogingen voorbijgaand van aard en verdwenen gedurende de
+voortzetting van de behandeling. Er zijn echter ook postmarketingmeldingen van leverfalen, evenals
+minder ernstige leveraandoeningen die kunnen voorafgaan aan leverfalen, zoals hepatitis waaronder
+auto-immuunhepatitis bij patiënten die adalimumab kregen.
+Gelijktijdige behandeling met azathioprine/6-mercaptopurine
+Tijdens onderzoeken bij volwassenen met de ziekte van Crohn werden hogere incidenties van maligne
+en ernstige infectiegerelateerde bijwerkingen gezien bij de combinatie van adalimumab en
+azathioprine/6-mercaptopurine in vergelijking met alleen adalimumab.
+Melding van vermoedelijke bijwerkingen
+Het is belangrijk om na toelating van het geneesmiddel vermoedelijke bijwerkingen te melden. Op deze
+wijze kan de verhouding tussen voordelen en risico’s van het geneesmiddel voortdurend worden
+gevolgd. Beroepsbeoefenaren in de gezondheidszorg wordt verzocht alle vermoedelijke bijwerkingen te
+melden via het nationale meldsysteem zoals vermeld in aanhangsel V.
