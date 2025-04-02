@@ -23,10 +23,11 @@ def check_rule_based(adr: str, drug_label: str) -> bool:
 
     return False
 
-def extract_adrs(openai_api_key: str, drug_label: str) -> dict:
+def extract_adrs(openai_api_key: str, drug_label: str, language: str) -> dict:
     """
     Calls the OpenAI ChatCompletion endpoint using GPT-4.
     Asks the model to extract all potential Adverse Events (AEs) in a comma-separated list,
+    keeping to the language provided,
     returning chain-of-thought in <think> ... </think> and the final list outside.
     Returns a dict with keys: 'chain_of_thought', 'extracted_list'.
     """
@@ -34,7 +35,8 @@ def extract_adrs(openai_api_key: str, drug_label: str) -> dict:
 
     system_msg = (
         "You are a helpful assistant. Extract all potential Adverse Events (AEs) "
-        "from the provided drug label in a comma-separated list. "
+        f"from the provided drug label in a comma-separated list. Keep the language in {language}, "
+        "including your chain-of-thought."
         "Return your chain-of-thought inside <think> ... </think> tags, "
         "followed by the final comma-separated list outside those tags."
     )
@@ -70,18 +72,25 @@ def extract_adrs(openai_api_key: str, drug_label: str) -> dict:
         "extracted_list": extracted_list
     }
 
-def check_adr_in_extracted_list(openai_api_key: str, adr: str, extracted_adrs: str) -> dict:
+def check_adr_in_extracted_list(openai_api_key: str, adr: str, extracted_adrs: str, language: str) -> dict:
     """
     Calls the OpenAI ChatCompletion endpoint (GPT-4) to verify 
-    if `adr` is in the extracted list of AEs. 
+    if `adr` is in the extracted list of AEs that are provided in a given language.
     Returns a dict with 'chain_of_thought' and 'final_answer' (Yes/No).
     """
     openai.api_key = openai_api_key
 
     system_msg = (
         "You are a helpful assistant. Given a user ADR, see if it's present in a "
-        "list of extracted ADRs. Provide chain-of-thought in <think> tags, "
-        "then output your final answer outside those tags as 'Yes' or 'No'."
+        f"list of extracted ADRs in {language}. "
+        " These are extracted ADRs from a drug label and we want to check whether we could consider the user provided ADR as labelled or not. "
+        "Therefore, we are not only checking the exact match of the ADR in the list, but synonyms as well. "
+        "Provide chain-of-thought in <think> tags, "
+        f"Please have your chain-of-thought reasoning in {language}. "
+        "Note that your chain-of-thought reasoning around whether the ADR can be considered labelled or not is very important "
+        "and will be reviewed by a human assessor, so please explain your reasoning well. "
+        "Finally, output your final answer regarding whether the user provided ADR is labelled or not, "
+        "outside those <think> tags as 'Yes' or 'No'."
     )
     user_msg = f"User ADR: {adr}\nExtracted ADRs: {extracted_adrs}"
 

@@ -172,14 +172,15 @@ if st.button("Run ADR Check"):
 
                 # 2) GPT-4 extraction
                 user_extraction_msg = (
-                    "Please extract all potential ADRs from the label using GPT-4 (comma-separated)."
+                    f"You are provided with a medical product label in {selected_language}.\n\n"
+                    f"Please extract all potential ADRs from the label using GPT-4 (comma-separated), keeping them in {selected_language}."
                 )
                 st.session_state["conversation_logs"].append({
                     "role": "user",
                     "message": f"**User:** {user_extraction_msg}"
                 })
 
-                extraction_result = extract_adrs(openai_key, label_text)
+                extraction_result = extract_adrs(openai_key, label_text, selected_language)
                 chain_of_thought_extraction = extraction_result["chain_of_thought"]
                 extracted_list = extraction_result["extracted_list"]
 
@@ -195,13 +196,13 @@ if st.button("Run ADR Check"):
                 })
 
                 # 3) Checking user ADR in that extracted list
-                user_check_msg = f"Check if '{adr}' is in the extracted ADR list."
+                user_check_msg = f"Check if '{adr}' is in the extracted ADR list, as direct match or close synonym."
                 st.session_state["conversation_logs"].append({
                     "role": "user",
                     "message": f"**User:** {user_check_msg}"
                 })
 
-                check_result = check_adr_in_extracted_list(openai_key, adr, extracted_list)
+                check_result = check_adr_in_extracted_list(openai_key, adr, extracted_list, selected_language)
                 final_chain_of_thought = check_result["chain_of_thought"]
                 final_answer = check_result["final_answer"]
 
