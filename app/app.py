@@ -12,7 +12,7 @@ from pipeline import (
 st.set_page_config(page_title="ADR Labeling Comparison Tool", layout="wide")
 
 # Languages available
-languages = ["English", "French", "Dutch"]
+languages = ["English", "French", "Dutch", "German"]
 
 # -----------------------------------------------------------------------------
 # 1) Sentence-splitting helper
