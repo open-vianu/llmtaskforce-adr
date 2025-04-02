@@ -11,6 +11,8 @@ from pipeline import (
 # Set page config
 st.set_page_config(page_title="ADR Labeling Comparison Tool", layout="wide")
 
+# Languages available
+languages = ["English", "French"]
 
 # -----------------------------------------------------------------------------
 # 1) Sentence-splitting helper
@@ -71,6 +73,11 @@ if openai_api_input != st.session_state["openai_api_key"]:
 # 5) UI for user to provide ADR & Label
 # ----------------------------------------------------------------
 st.subheader("User Input")
+
+selected_language = st.selectbox(
+    "Choose your language:",
+    languages
+)
 
 st.session_state["adr"] = st.text_input(
     "Adverse Drug Reaction (ADR):",
