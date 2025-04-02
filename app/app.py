@@ -1,16 +1,13 @@
 import streamlit as st
 import os
 import re
+import json
 # We'll assume you have pipeline.py in the same folder
 from pipeline import (
     check_rule_based,
     extract_adrs,
     check_adr_in_extracted_list
 )
-
-# Set page config
-st.set_page_config(page_title="ADR Labeling Comparison Tool", layout="wide")
-
 
 # -----------------------------------------------------------------------------
 # 1) Sentence-splitting helper
@@ -43,7 +40,7 @@ st.write(
     "potential ADRs and then verify again.\n\n"
 )
 
-# Make sure we have a session_state container for the local storage sync
+# Make sure we have a session_state container for local storage
 if "openai_api_key" not in st.session_state:
     st.session_state["openai_api_key"] = ""
 if "conversation_logs" not in st.session_state:
@@ -62,47 +59,119 @@ openai_api_input = st.text_input(
     value=st.session_state["openai_api_key"]
 )
 
-# If user typed a new key in the text_input, store it in session
-# This ensures that after the user types, we update local storage on next run
+# If user typed a new key, store it in session
 if openai_api_input != st.session_state["openai_api_key"]:
     st.session_state["openai_api_key"] = openai_api_input
 
-# ----------------------------------------------------------------
-# 5) UI for user to provide ADR & Label
-# ----------------------------------------------------------------
-st.subheader("User Input")
+# -----------------------------------------------------------------------------
+# 5) Label Origin
+# -----------------------------------------------------------------------------
+st.subheader("Label Origin")
+label_origin = st.selectbox(
+    "Select the origin of the label:",
+    ["Experimental", "Switzerland 🇨🇭", "EMA 🇪🇺"]
+)
 
+# -----------------------------------------------------------------------------
+# 6) UI: ADR
+# -----------------------------------------------------------------------------
 st.session_state["adr"] = st.text_input(
     "Adverse Drug Reaction (ADR):",
     value=st.session_state["adr"],
     placeholder="Type in your ADR here."
 )
 
-LABEL_PATH = "./data/txtfiles/"
-available_labels = []
-if os.path.isdir(LABEL_PATH):
-    available_labels = os.listdir(LABEL_PATH)
+# -----------------------------------------------------------------------------
+# 7) Load labels based on origin
+# -----------------------------------------------------------------------------
+LABEL_PATH = "./data/txtfiles/"  # For Experimental
+RESULTS_PATH = "./data/results/"  # For JSON files
 
-selected_label_file = st.selectbox(
-    "Choose a sample label file:",
-    ["None"] + available_labels
-)
+def load_json_labels(json_file_path):
+    """Load and return the array of label objects from the given JSON file."""
+    if not os.path.isfile(json_file_path):
+        return []
+    with open(json_file_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    return data
 
-drug_label_text = st.text_area(
-    "Or paste your own drug label text here:",
-    value=st.session_state["drug_label"]
-)
+# Prepare variables for user selection
+label_data = []         # Will hold the list of label dictionaries for CH or EMA
+label_files_list = []   # Will hold .txt file names for Experimental
 
-# If the user selected a file, load it
-if selected_label_file != "None":
-    with open(os.path.join(LABEL_PATH, selected_label_file), "r") as f:
-        st.session_state["drug_label"] = f.read().lower()
-else:
-    st.session_state["drug_label"] = drug_label_text.lower()
+if label_origin == "Experimental":
+    # List .txt files in LABEL_PATH
+    if os.path.isdir(LABEL_PATH):
+        label_files_list = [
+            f for f in os.listdir(LABEL_PATH) 
+            if f.lower().endswith(".txt")
+        ]
+    else:
+        st.warning(f"No directory found at {LABEL_PATH}")
 
-# ----------------------------------------------------------------
-# 6) Buttons: Clear Conversation / Run Check
-# ----------------------------------------------------------------
+elif label_origin == "Switzerland 🇨🇭":
+    # Load labels_ch.json
+    label_data = load_json_labels(os.path.join(RESULTS_PATH, "label_ch.json"))
+    if not label_data:
+        st.warning("No Swiss labels found (label_ch.json missing or empty).")
+
+elif label_origin == "EMA 🇪🇺":
+    # Load labels_ema.json
+    label_data = load_json_labels(os.path.join(RESULTS_PATH, "label_ema.json"))
+    if not label_data:
+        st.warning("No EMA labels found (labels_ema.json missing or empty).")
+
+
+# -----------------------------------------------------------------------------
+# 8) Let user pick label (depending on origin)
+# -----------------------------------------------------------------------------
+st.subheader("Select or Paste Drug Label")
+
+if label_origin == "Experimental":
+    # Let user pick from .txt files, or paste their own
+    selected_label_file = st.selectbox(
+        "Choose a sample text file:",
+        ["None"] + label_files_list
+    )
+
+    # If user picked a file, read it in
+    if selected_label_file != "None":
+        with open(os.path.join(LABEL_PATH, selected_label_file), "r", encoding="utf-8") as f:
+            label_text = f.read()
+        st.session_state["drug_label"] = label_text.lower()
+    else:
+        # Otherwise, let them paste
+        user_paste = st.text_area(
+            "Or paste your own drug label text here:",
+            value=st.session_state["drug_label"]
+        )
+        st.session_state["drug_label"] = user_paste.lower()
+
+elif label_origin in ["Switzerland 🇨🇭", "EMA 🇪🇺"]:
+    # Let user pick from label_data
+    if label_data:
+        # Show a selectbox of all "Drug Name" fields
+        drug_names = [item["Drug Name"] for item in label_data]
+        chosen_drug = st.selectbox("Pick a label:", drug_names)
+        # Find the selected drug in label_data
+        selected_item = next(x for x in label_data if x["Drug Name"] == chosen_drug)
+        # For convenience, combine all relevant fields into the "drug_label"
+        # or just the ADR text if that's all you care about:
+        # e.g., we combine "Drug Name", "Active Substance", "ADRs" etc. into one big text
+        combined_text = (
+            f"Drug Name: {selected_item.get('Drug Name','')}\n\n"
+            f"Active Substance: {selected_item.get('Active Substance','')}\n\n"
+            f"ATC Class: {selected_item.get('Full ATC Class','')}\n\n"
+            f"ADRs:\n{selected_item.get('ADRs','')}\n"
+        )
+        st.session_state["drug_label"] = combined_text.lower()
+    else:
+        # Fallback if there's no data
+        st.info("No JSON data loaded or empty file. Please provide a valid JSON.")
+
+# -----------------------------------------------------------------------------
+# 9) Buttons: Clear Conversation / Run Check
+# -----------------------------------------------------------------------------
 st.button("Clear Conversation", on_click=clear_conversation)
 
 if st.button("Run ADR Check"):
@@ -121,7 +190,7 @@ if st.button("Run ADR Check"):
         elif not label_text:
             st.error("Drug label cannot be empty.")
         else:
-            # --- Chat: Display the drug label with a short preview in an assistant message
+            # 1) Show a short preview of the label
             short_preview = get_first_sentences(label_text, num_sentences=2)
             st.session_state["conversation_logs"].append({
                 "role": "assistant",
@@ -133,7 +202,7 @@ if st.button("Run ADR Check"):
                 "full_label": label_text
             })
 
-            # 1) Rule-based check
+            # 2) Rule-based check
             user_msg = f"Is the ADR '{adr}' found in the label (rule-based)?"
             st.session_state["conversation_logs"].append({
                 "role": "user",
@@ -163,7 +232,7 @@ if st.button("Run ADR Check"):
                     "message": assistant_msg
                 })
 
-                # 2) GPT-4 extraction
+                # 2a) GPT-4 extraction
                 user_extraction_msg = (
                     "Please extract all potential ADRs from the label using GPT-4 (comma-separated)."
                 )
@@ -187,7 +256,7 @@ if st.button("Run ADR Check"):
                     "message": assistant_msg_extraction
                 })
 
-                # 3) Checking user ADR in that extracted list
+                # 2b) Checking user ADR in that extracted list
                 user_check_msg = f"Check if '{adr}' is in the extracted ADR list."
                 st.session_state["conversation_logs"].append({
                     "role": "user",
@@ -208,9 +277,9 @@ if st.button("Run ADR Check"):
                     "message": assistant_msg_check
                 })
 
-# ----------------------------------------------------------------
-# 7) Display conversation in a chat-like interface
-# ----------------------------------------------------------------
+# -----------------------------------------------------------------------------
+# 10) Display conversation in a chat-like interface
+# -----------------------------------------------------------------------------
 for log in st.session_state["conversation_logs"]:
     if log["role"] == "user":
         with st.chat_message("user"):
