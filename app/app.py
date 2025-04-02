@@ -41,8 +41,6 @@ st.write(
     "ADR (Adverse Drug Reaction) is present in a drug label. "
     "First, we do a quick rule-based check. If not found, we use GPT-4 to extract "
     "potential ADRs and then verify again.\n\n"
-    "**Note:** The OpenAI API key is stored in your browser's local storage for convenience, "
-    "which is not perfectly secure. Use at your own risk."
 )
 
 # Make sure we have a session_state container for the local storage sync
